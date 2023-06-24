@@ -10,15 +10,15 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: radial-gradient(#555555, #292929);
+  background: radial-gradient(#383f35, #453d3d);
 }
 
 label {
   position: relative;
   width: 300px;
   height: 150px;
-  background: #3e3e3e;
-  box-shadow: 0 0 0 4px #303030;
+  background: rgba(47, 54, 107, 0.2);
+  box-shadow: 0 0 0 3px #303030;
   border-radius: 75px;
   cursor: pointer;
   display: flex;
@@ -31,7 +31,7 @@ label input {
           appearance: none;
 }
 label input:checked ~ span {
-  left: 150px;
+  left: 153px;
   background: url(../img/Coffee_02.png);
   background-size: auto 150px;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ label span {
   background-repeat: no-repeat;
   transition: 1.5s;
   transform: rotate(-180deg);
-  transform-origin: 75px;
+  transform-origin: 73px;
 }
 label text {
   position: absolute;
